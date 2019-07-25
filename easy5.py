@@ -1,4 +1,4 @@
-5.1 Easy
+# 5.1 Easy
 
 import os
 import sys
@@ -18,12 +18,12 @@ def rm_dir(path):
     except FileExistsError:
         print('Directory is not here')
 
-5.2 Easy
+# 5.2 Easy
 
 def list_dir():
     print([i for i in os.listdir() if os.path.isdir(i)])
 
-5.3 Easy
+# 5.3 Easy
 
 def create_file_copy():
     filename = sys.argv[0]
